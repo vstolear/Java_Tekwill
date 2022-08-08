@@ -32,7 +32,7 @@ Daca numarul este impar si mai mic de 15, atunci printati un mesaj "Numarul este
             System.out.println(" Numarul este impar");
         }
 */
-            int num = 30;
+            int num = 5;
             // nr intreg par > 10
             if (num % 2 == 0 && num > 10) {
                 System.out.println(" Numarul este par");
