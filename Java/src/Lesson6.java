@@ -9,7 +9,7 @@ Daca numarul este impar si mai mic de 15, atunci printati un mesaj "Numarul este
 
         public static void main(String[] args) {
 
-            Scanner reader = new Scanner(System.in);
+          /*  Scanner reader = new Scanner(System.in);
 
             System.out.print("Enter a number: ");
             int num = reader.nextInt();
@@ -21,6 +21,27 @@ Daca numarul este impar si mai mic de 15, atunci printati un mesaj "Numarul este
             else {
                 System.out.println(" Mai incearca o data");
             }
+            */
+
+/*
+        /*int num = 5;
+        // nr intreg par > 10
+        if (num % 2 == 0 && num > 10) {
+            System.out.println(" Numarul este par");
+        } else if (num % 2 != 0 && num <= 15) {
+            System.out.println(" Numarul este impar");
+        }
+*/
+            int num = 30;
+            // nr intreg par > 10
+            if (num % 2 == 0 && num > 10) {
+                System.out.println(" Numarul este par");
+            }
+            if (num % 2 != 0 && num <= 15) {
+                System.out.println(" Numarul este impar");
+            }
+
+
         }
     }
 
